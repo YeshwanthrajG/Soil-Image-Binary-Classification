@@ -8,11 +8,11 @@ This project is a deep learning-based soil image classification system that uses
 - [Overview](#overview)
 - [Dataset](#dataset)
 - [Model Architecture](#model-architecture)
-- [Installation](#installation)
 - [How to Use](#how-to-use)
 - [Results](#results)
 - [Future Work](#future-work)
 - [License](#license)
+- [Installation](#installation)
 
 ---
 
@@ -40,6 +40,53 @@ The project trains a Convolutional Neural Network (CNN) using soil images to cla
 
 ---
 
+## How to Use
+1. Prepare your dataset: organize images in train/ and test/ folders, each containing subfolders for each soil class.
+
+2. Run the Jupyter Notebook using the following command:
+
+jupyter notebook soil-classification2.ipynb
+
+3. Follow the notebook cells to:
+
+* Load and preprocess data
+
+* Train the CNN
+
+* Evaluate and visualize results
+
+---
+
+## 📊 Results
+Model performance is evaluated using:
+
+* Training and validation accuracy
+
+* Confusion matrix
+
+* Sample predictions
+
+---
+
+## 🔮 Future Work
+* Improve model accuracy using data augmentation
+
+* Integrate with mobile apps or IoT systems
+
+* Deploy the model using a web app (e.g., Flask or Streamlit)
+
+---
+
+## 📄 License
+This project is licensed under the MIT License.
+
+---
+
+## 🤝 Contributions
+Feel free to fork the repo, open issues, and submit pull requests. Contributions are welcome!
+
+---
+
 ## ⚙️ Installation
 
 ```bash
@@ -53,3 +100,4 @@ source env/bin/activate  # or env\Scripts\activate on Windows
 
 # Install dependencies
 pip install -r requirements.txt
+
