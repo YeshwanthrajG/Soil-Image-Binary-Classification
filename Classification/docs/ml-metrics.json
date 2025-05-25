@@ -1,0 +1,27 @@
+{
+  "_comment": "This JSON file contains the ml-metrics",
+  "Name": "Yeshwanthraj G",
+  "Kaggle Username": "yeshwanthrajg7",
+  "Team Name": "The Unknown",
+  "f1_scores": {
+    "1": {
+      "precision": 1.00,
+      "recall": 1.00,
+      "f1-score": 1.00,
+      "support": 245
+    },
+    "accuracy": 1.00,
+    "macro avg": {
+      "precision": 1.00,
+      "recall": 1.00,
+      "f1-score": 1.00,
+      "support": 245
+    },
+    "weighted avg": {
+      "precision": 1.00,
+      "recall": 1.00,
+      "f1-score": 1.00,
+      "support": 245
+    }
+  }
+}
